@@ -1,0 +1,11 @@
+name: OneShot
+version: '${version}'
+main: net.azisaba.oneshot.OneShot
+api-version: '1.16'
+
+commands:
+  oneshot:
+    permission: oneshot.command.oneshot
+permissions:
+  oneshot.command.oneshot:
+    default: op
